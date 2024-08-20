@@ -1,0 +1,18 @@
+.custom-button {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+  }
+  .header{
+      @apply   w-full font-semibold sticky top-0 z-[1000] bg-white
+  }
+  .navbar{
+      @apply flex items-center justify-between h-20 
+  }
+  .navright{
+      @apply flex items-center justify-evenly w-48 lg:mr-2
+  }
+  .about{
+      @apply text-xl md:px-12 px-5 text-justify py-16 font-normal 
+  }
+  .custom-tab{
+      @apply border border-blue-300 md:p-2 p-0.5 rounded-md hover:bg-blue-400 cursor-pointer
+  }
