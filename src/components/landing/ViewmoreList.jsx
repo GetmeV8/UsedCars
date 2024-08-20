@@ -24,7 +24,7 @@ const ViewmoreList = () => {
 
     return (
         <div className="p-4 md:p-8 bg-gray-100">
-            <h2 className="text-2xl font-bold mb-6 text-center">All Listing</h2>
+            <h2 className="text-2xl font-bold mb-6 text-center">All Listings</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8">
                 {carData.slice(0, visibleCars).map(car => (
                     <div key={car.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
