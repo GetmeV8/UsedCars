@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="flex flex-col items-center md:items-start">
                   <div className="flex flex-col sm:flex-row items-center mb-4 sm:mb-0">
                     <h3 className="text-white font-medium text-lg md:text-xl text-center sm:text-left">
-                      KMK technologies limited
+                      TK Trading
                     </h3>
                   </div>
 
@@ -24,17 +24,25 @@ const Footer = () => {
                 <div className="w-full md:w-auto mb-6 md:mb-0 font-medium">
                   <ul className="leading-10">
                     <li>
-                      <Link to="/">Services</Link>
+                      {/* <Link to="/">Services</Link> */}
+                      <Link to="/">サービス</Link>
+                      
                     </li>
                     <li>
-                      <Link
+                      {/* <Link
                         to="/"
                       >
                         Spare Parts
+                      </Link> */}
+                       <Link
+                        to="/"
+                      >
+                     部品
                       </Link>
                     </li>
                     <li>
-                      <a href="/">Privacy Policies</a>
+                      {/* <a href="/">Privacy Policies</a> */}
+                      <a href="/">プライバシーポリシー</a>
                     </li>
                   </ul>
                 </div>
@@ -54,7 +62,8 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        address,japan
+                        {/* address,japan */}
+                        住所、日本
                       </a>
                     </li>
                     <li className="flex md:flex-row flex-col gap-2 items-center mb-4">
@@ -65,11 +74,11 @@ const Footer = () => {
                         style={{ width: "18px", height: "auto" }}
                       />
                       <a
-                        href="tel:+91 22 4225 4225"
+                        href="tel:+81 1234-5678."
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        +91 22 4444 5555
+                        +81 (03) 1234-5678.
                       </a>
                     </li>
                     <li className="flex md:flex-row flex-col gap-2 items-center mb-4">
@@ -80,11 +89,11 @@ const Footer = () => {
                         style={{ width: "18px", height: "auto" }}
                       />
                       <a
-                        href="mailto:contact@kmk,com"
+                        href="mailto:contact@tktrading.com"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        kmk@technologies.com
+                        tk@trading.com
                       </a>
                     </li>
                   </ul>
@@ -94,7 +103,7 @@ const Footer = () => {
             {/* line */}
             <hr className="border-t border-gray-600 my-8 md:my-0" />
             <div className="flex md:flex-row  flex-col gap-4 text-white justify-between py-4 px-10 items-center">
-              <p className="font-thin ">© 2024 KMK All rights reserved</p>
+              <p className="font-thin ">© 2024 TK 無断転載を禁じます</p>
               <hr className="border-t border-gray-600 w-full md:hidden" />
               <div className="flex gap-2 ">
                 <div>

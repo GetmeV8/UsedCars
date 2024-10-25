@@ -31,7 +31,7 @@ const MobileNav = () => {
           className={` cursor-pointer z-50 text-neutral-950 h-14 w-[250px] text-center flex justify-between items-center `}
         >
           <div className="flex items-center">
-            <h3>AUTOALLY </h3>
+            <h3>自動車 </h3>
           </div>
         </div>
       </Link>
@@ -78,7 +78,8 @@ const MobileNav = () => {
          
             <Link to="/getintouch" onClick={toggleHamburgerMenu}>
               <div className="bg-[#c71523] mx-4 mt-36 z-[1000] text-white p-1 rounded-md hover:bg-[#4087ba]  justify-center flex items-center gap-2 cursor-pointer">
-                Login/Signup
+                {/* Login/Signup */}
+                サインアップ
               </div>
             </Link>
           </div>

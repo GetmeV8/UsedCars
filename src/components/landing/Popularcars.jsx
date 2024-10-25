@@ -10,9 +10,13 @@ const PopularCars = () => {
 
   return (
     <div className="container mx-auto my-8 p-4">
-      <h2 className="text-xl font-bold mb-2">Popular Japanese Used Cars</h2>
-      <p className="mb-4">
+      {/* <h2 className="text-xl font-bold mb-2">Popular Japanese Used Cars</h2> */}
+      <h2 className="text-xl font-bold mb-2"> 人気のある日本の中古車</h2>
+      {/* <p className="mb-4">
         Find your ideal popular Japanese cars from more than 380,000 in stock.
+      </p> */}
+       <p className="mb-4">
+       在庫38万台以上の中から理想の人気日本車を見つけましょう。
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {carModels.map((column, index) => (

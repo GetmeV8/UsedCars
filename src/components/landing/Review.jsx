@@ -8,23 +8,27 @@ import { ArrowRight, ArrowLeft } from "@phosphor-icons/react";
 const TestimonialData = [
   {
     content:
-      "Great Service with variety of models from wide range.",
-    author: "Alex",
+      // "Great Service with variety of models from wide range.",
+      "幅広いモデルの多様性と素晴らしいサービス。",
+    author: "Isamu",
   },
   {
     content:
-      "Great purchase with easy shipping",
-    author: "Christian Bale",
+      // "Great purchase with easy shipping",
+      "素晴らしい購入で、配送も簡単でした。",
+    author: "Hinata",
   },
   {
     content:
-      "Got the Exact vehicle i always wanted to acquire",
-    author: "Ryan Gosling",
+      // "Got the Exact vehicle i always wanted to acquire",
+      "ずっと手に入れたかった車を手に入れました。",
+    author: "Akari",
   },
   {
     content:
-      "My company got the best trucks from here.",
-    author: "Christian Bale",
+      // "My company got the best trucks from here.",
+      "私の会社はここから最高のトラックを手に入れました。.",
+    author: "Kenji",
   },
 ];
 
@@ -82,11 +86,13 @@ const Reviews = () => {
     <div className="flex flex-col md:flex-row items-center md:mb-16 mt-28 px-4 md:px-8">
       <div className="w-full md:w-[40%] flex flex-col items-start">
         <h2 className="font-semibold text-[1.5rem] uppercase mb-5 text-gray-700">
-          TESTIMONIALS
+          {/* TESTIMONIALS */}
+          推薦の声
         </h2>
         <div className="flex w-full justify-between md:block md:w-auto">
           <h1 className="text-3xl md:text-5xl font-bold mb-8 text-gray-900 leading-tight">
-            Hear from our <br /> customers
+            {/* Hear from our <br /> customers */}
+            私たちから聞いてください <br/> 顧客
           </h1>
           <div className="hidden md:flex -space-x-4 rtl:space-x-reverse mb-8">
             {[...Array(3)].map((_, index) => (

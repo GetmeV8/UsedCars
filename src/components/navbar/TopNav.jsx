@@ -1,15 +1,17 @@
-import React,{useState,useEffect,useMemo} from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { Link } from "react-router-dom";
 import "swiper/css/bundle";
 import "swiper/css/effect-fade";
 
-
-const TopNav= () =>  {
+const TopNav = () => {
   const texts = useMemo(
     () => [
-      "Vehicles at best prices",
-      "Wide range of models",
-      "Click here for more details !",
+      // "Vehicles at best prices",
+      // "Wide range of models",
+      // "Click here for more details !",
+      "最高価格の車両",
+      "幅広いモデル",
+      "詳細はこちらをクリック！",
     ],
     []
   );
@@ -41,5 +43,5 @@ const TopNav= () =>  {
       </div>
     </div>
   );
-}
-export default TopNav
+};
+export default TopNav;
