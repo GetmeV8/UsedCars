@@ -9,26 +9,20 @@ const TestimonialData = [
   {
     content:
       // "Great Service with variety of models from wide range.",
-      "幅広いモデルの多様性と素晴らしいサービス。",
-    author: "Isamu",
+      "タルハはまさに私が望んでいたものを予算内で見つけてくれました。彼の専門知識とプロフェッショナリズムにより、車の購入プロセスがスムーズになりました。強くお勧めします！",
+    author: "Iサルマン",
   },
   {
     content:
       // "Great purchase with easy shipping",
-      "素晴らしい購入で、配送も簡単でした。",
-    author: "Hinata",
+      "史上最高の車購入体験!タルハの顧客サービスは素晴らしく、みんなを家族のように扱います。私の購入にこれ以上満足することはできません",
+    author: "ワハブ",
   },
   {
     content:
       // "Got the Exact vehicle i always wanted to acquire",
       "ずっと手に入れたかった車を手に入れました。",
-    author: "Akari",
-  },
-  {
-    content:
-      // "My company got the best trucks from here.",
-      "私の会社はここから最高のトラックを手に入れました。.",
-    author: "Kenji",
+    author: "シュハイブ",
   },
 ];
 

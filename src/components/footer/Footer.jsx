@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="flex flex-col items-center md:items-start">
                   <div className="flex flex-col sm:flex-row items-center mb-4 sm:mb-0">
                     <h3 className="text-white font-medium text-lg md:text-xl text-center sm:text-left">
-                      TK Trading
+                    TKトレーディング
                     </h3>
                   </div>
 
@@ -103,7 +103,7 @@ const Footer = () => {
             {/* line */}
             <hr className="border-t border-gray-600 my-8 md:my-0" />
             <div className="flex md:flex-row  flex-col gap-4 text-white justify-between py-4 px-10 items-center">
-              <p className="font-thin ">© 2024 TK 無断転載を禁じます</p>
+              <p className="font-thin ">© 2024 Copyright Ministry of Economy, Trade and Industry. All Rights Reserved.</p>
               <hr className="border-t border-gray-600 w-full md:hidden" />
               <div className="flex gap-2 ">
                 <div>
