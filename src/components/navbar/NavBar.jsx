@@ -41,7 +41,7 @@ const Sticky = () => {
           <Link to="/">自動車部品</Link>
         </div>
         <div className="p-3">
-          <Link to="/getintouch" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <div className="bg-[#c71523] z-50 text-white p-1 rounded-md hover:bg-[#4087ba] w-28 justify-center flex items-center gap-2 cursor-pointer">
               {/* Login/Signup */}
               サインアップ
